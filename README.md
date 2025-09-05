@@ -60,5 +60,5 @@ Inside **client.lua** you can adjust:
 ## 🔑 Credits
 
 * Script Name: **Lv-MoneyHud**
-* Framework: **QBCore**
+* Framework: **[QBCore](https://github.com/qbcore-framework/qb-core)**
 * Languages: **HTML, CSS, JS, Lua**
