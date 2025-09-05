@@ -53,8 +53,7 @@ Inside **client.lua** you can adjust:
 
 ## 🖼️ Preview
 
-*<img width="1027" height="767" alt="image" src="https://github.com/user-attachments/assets/3469d9ed-5faa-486c-9d57-1fe4a1ecb375" />
-*
+<img width="1027" height="767" alt="image" src="https://github.com/user-attachments/assets/3469d9ed-5faa-486c-9d57-1fe4a1ecb375" />
 
 ---
 
