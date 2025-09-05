@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>qbmoneyHud</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <!-- FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <div id="hud" class="hud hidden">
+    
+    <!-- Logo Only -->
+    <img id="server-logo" class="logo" src="img/logo.png" alt="logo" />
+
+    <!-- ID -->
+    <div class="hud-card" id="row-id">
+      <i class="fa-solid fa-id-card icon"></i>
+      <div class="text">
+        <span class="label">ID</span>
+        <span class="value" id="val-id">0</span>
+      </div>
+      <div class="underline"></div>
+    </div>
+
+    <!-- Cash -->
+    <div class="hud-card" id="row-cash">
+      <i class="fa-solid fa-money-bill-wave icon"></i>
+      <div class="text">
+        <span class="label">Cash</span>
+        <span class="value money" id="val-cash">$0</span>
+      </div>
+      <div class="underline"></div>
+    </div>
+
+    <!-- Bank -->
+    <div class="hud-card" id="row-bank">
+      <i class="fa-solid fa-building-columns icon"></i>
+      <div class="text">
+        <span class="label">Bank</span>
+        <span class="value money" id="val-bank">$0</span>
+      </div>
+      <div class="underline"></div>
+    </div>
+
+    <!-- Job -->
+    <div class="hud-card" id="row-job">
+      <i class="fa-solid fa-briefcase icon"></i>
+      <div class="text">
+        <span class="label">Job</span>
+        <span class="value" id="val-job">Unemployed</span>
+      </div>
+      <div class="underline"></div>
+    </div>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
